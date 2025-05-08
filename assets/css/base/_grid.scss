@@ -1,0 +1,157 @@
+
+.container{
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+}
+
+$grid_columns: 12;
+$grid_xxl_brackpoint: 1400px;
+$grid_xl_brackpoint: 1200px;
+$grid_lg_brackpoint: 992px;
+$grid_md_brackpoint: 768px;
+$grid_sm_brackpoint: 576px;
+
+/* Medium Devices 540px - 576px */ 
+@media (max-width: $grid_sm_brackpoint) {
+    .container{
+        width:100%;
+    }
+    .col{
+        width: 100%;
+    }
+
+}
+/* Medium Devices 540px - 576px */ 
+@media (min-width: $grid_sm_brackpoint) {
+    .container{
+        width:540px;
+    }
+    .justify-sm-center{
+        justify-content: center;
+    }
+    @for $i from 1 through 12{
+        .col-sm-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+/* Medium Devices 720px - 768px */ 
+@media (min-width: $grid_md_brackpoint) {
+    .container{
+        width:740px;
+    }
+    .justify-md-end{
+        justify-content: flex-end;
+    }
+    @for $i from 1 through 12{
+        .col-md-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+
+/* Large Devices 960px - 992px */ 
+@media (min-width: $grid_lg_brackpoint) {
+    .container{
+        width: 960px;
+    }
+    @for $i from 1 through 12{
+        .col-lg-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+
+/* Tablet Devices 1140px 1200px*/ 
+@media (min-width: $grid_xl_brackpoint) {
+    .container{
+        width: 1140px;
+    }
+    @for $i from 1 through 12{
+        .col-xl-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+
+
+/* Desktop Devices 1320px */ 
+
+@media (min-width: $grid_xxl_brackpoint) {
+    .container{
+        width: 1320px;
+    }
+    @for $i from 1 through 12{
+        .col-xxl-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive Mixing */ 
+@mixin min-xxl{
+    @media ( min-width:$grid_xxl_brackpoint ) {
+        @content;
+    }
+}
+
+@mixin min-xl {
+    @media ( min-width:$grid_xl_brackpoint ) and (  max-width:$grid_xxl_brackpoint){
+        @content;
+    }
+}
+
+@mixin min-lg {
+    @media ( min-width:$grid_lg_brackpoint ) and (  max-width:$grid_xl_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-md {
+    @media ( min-width:$grid_md_brackpoint ) and (  max-width:$grid_lg_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-sm {
+    @media ( min-width:$grid_sm_brackpoint ) and (  max-width:$grid_md_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-xs {
+    @media (max-width:$grid_sm_brackpoint){ 
+        @content;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

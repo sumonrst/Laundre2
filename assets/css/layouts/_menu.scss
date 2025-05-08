@@ -1,0 +1,32 @@
+
+/* 
+    4. Banner CSS
+*/
+
+.header-middle {
+	padding: 34px 0px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        & a {
+            text-transform: capitalize;
+        }
+    }
+    .header-button span {
+        font-size: 16px;
+        text-transform: capitalize;
+        border: 1px solid #ddd;
+        padding: 16px 30px;
+    }
+}
+
+
+
+
+  
