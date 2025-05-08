@@ -842,6 +842,10 @@ span {
   transition: 0.3s;
 }
 
+.footer-menu-item {
+  padding: 6px 0px;
+}
+
 .about-btn-round {
   text-transform: capitalize;
   font-size: 14px;
