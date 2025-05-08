@@ -840,4 +840,26 @@ span {
 .social-list li a i:hover {
   background-color: #4375E7;
   transition: 0.3s;
+}
+
+.about-btn-round {
+  text-transform: capitalize;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  padding: 4px 29px;
+  position: relative;
+  color: #5B6473;
+}
+
+.about-btn-round:before {
+  position: absolute;
+  content: "";
+  background-color: #142137;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 15px;
+  top: 9px;
+  transform: translateX(-50%);
 }/*# sourceMappingURL=style.css.map */
