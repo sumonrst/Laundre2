@@ -6,7 +6,7 @@
 }
 .footer-top{
     padding-top: 127px;
-	padding-bottom: 127px;
+	padding-bottom: 90px;
 }
 
 
@@ -17,6 +17,7 @@
     padding-top: 35px;
     border-top: 1px solid #dddddd21;
     padding-bottom: 35px;
+    align-items: center;
   }
   .footer-description {
     color: #AEB2BA;
@@ -36,7 +37,9 @@
 	margin-top: 28px;
 }
 
-
+.footer-menu {
+	margin-top: 42px;
+}
 
 .single-address span {
   font-size: 14px;
@@ -49,6 +52,7 @@
   flex-direction: row;
   gap: 20px;
   align-items: center;
+  margin-bottom: 20px;
 }
 .single-address img {
   width: 18px;
@@ -60,4 +64,63 @@
 }
 .footer-address {
   margin-top: 30px;
+}
+
+
+.widget-title {
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.footer-menu-list a {
+  color: #ffffff96;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.footer-form {
+  margin-top: 24px;
+}
+.footer-form input {
+  padding: 11px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #dddddda1;
+  width: 100%;
+  position: relative;
+}
+.footer-form .footer-btn {
+  position: absolute;
+  background-color: #4375E7;
+  padding: 8px 16px;
+  border: none;
+  margin-left: -101px;
+  margin-top: 4px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.news-des {
+  margin-top: 39px;
+}
+.social-list {
+  display: flex;
+  gap: 20px;
+}
+.footer-social {
+  margin-top: 30px;
+}
+.social-list li a i {
+  border: 1px solid #dddddd1f;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  transition: .3s;
+}
+.social-list li a i:hover {
+  background-color: #4375E7;
+  transition: .3s;
 }
