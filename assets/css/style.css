@@ -5,6 +5,8 @@
 2. Header style
 3. Header Menu CSS
 4. Banner CSS
+5. About Us CSS Start
+6. Services CSS Start
 
 
 */
@@ -332,6 +334,8 @@ span {
 2. Header style
 3. Header Menu CSS
 4. Banner CSS
+5. About Us CSS Start
+6. Services CSS Start
 
 
 */
@@ -882,4 +886,94 @@ span {
   width: 211px;
   padding: 13px 0px;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.about-counter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.single-counter {
+  border: 1px solid #ddd !important;
+  text-align: center;
+  padding: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  line-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-counter span {
+  font-size: 50px;
+  font-weight: 700;
+  display: block;
+  color: #142137;
+}
+
+.counter-title {
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  margin-top: 20px;
+}
+
+.delivery-info {
+  padding-top: 100px;
+}
+
+.delivery-content {
+  background-color: tomato;
+  height: 100%;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.delivery-info-left {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.delivery-experience {
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.experience-title {
+  background-color: #fff;
+  z-index: 5;
+  width: 349px;
+  height: 287px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 27px;
+  padding: 20px;
+}
+
+.expe-title {
+  font-size: 193px;
+}
+
+.experience-title span {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.experience-des {
+  margin-top: -87px;
+}
+
+/*
+    6. Services CSS Start
+*//*# sourceMappingURL=style.css.map */
