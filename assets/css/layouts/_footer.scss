@@ -35,3 +35,29 @@
 	line-height: 26px;
 	margin-top: 28px;
 }
+
+
+
+.single-address span {
+  font-size: 14px;
+  display: block;
+  color: #4375E7;
+  text-transform: capitalize;
+}
+.single-address {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.single-address img {
+  width: 18px;
+  height: 18px;
+}
+.address-text {
+  font-weight: 800;
+  color: #fff !important;
+}
+.footer-address {
+  margin-top: 30px;
+}
