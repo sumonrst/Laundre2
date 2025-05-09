@@ -70,6 +70,40 @@ a {
   transition: 0.3s;
 }
 
+/* Section Title */
+.title-section {
+  text-align: center;
+}
+.title-section h4 {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 4px 40px;
+  position: relative;
+  margin-bottom: 34px;
+}
+.title-section h4::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #142137;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  left: 26px;
+  top: 15px;
+  display: block;
+}
+.title-section h2 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 64px;
+  max-width: 839px;
+  margin: 0 auto;
+}
+
 /* Flex CSS */
 .d-flex {
   display: flex;
@@ -1105,4 +1139,88 @@ span {
 }
 .video-service .single-video-service:nth-child(2n) h4 {
   margin-top: 20px;
+}
+
+.price-area h2 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.price-area .pricing-list {
+  padding-top: 70px;
+}
+.price-area .pricing-list .single-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-area .pricing-list .single-pricing .pricing-title-area {
+  width: 100%;
+}
+.price-area .pricing-list .single-pricing .pricing-title-area .pricing-title {
+  background-color: #ECF2FE;
+  padding: 40px 30px 80px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.price-area .pricing-list .single-pricing .pricing-title-area .pricing-title h4 {
+  font-size: 20px;
+}
+.price-area .pricing-list .single-pricing .pricing-title-area .pricing-title img {
+  width: 30px;
+}
+.price-area .pricing-list .single-pricing .pricing-des {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 260px;
+  padding: 20px 20px 45px 20px;
+  margin-top: -35px;
+}
+.price-area .pricing-list .single-pricing .pricing-des .price-list .price-item {
+  display: flex;
+  gap: 7px;
+  flex-direction: row;
+}
+.price-area .pricing-list .single-pricing .pricing-des .price-list .price-item a {
+  font-size: 11px;
+  line-height: 0;
+}
+.price-area .pricing-list .single-pricing .pricing-des .price-list .price-item i {
+  background-color: #22E17F;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 9px;
+  color: #fff;
+}
+.price-area .pricing-button-area .pricing-button h4 {
+  text-align: center;
+  font-size: 18px;
+  max-width: 381px;
+  margin: 0 auto;
+}
+.price-area .pricing-button-area .pricing-button .pricing-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 34px;
+}
+.price-area .pricing-button-area .pricing-button .pricing-btn .pri-btn-green {
+  background-color: #4375E7;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.price-area .pricing-button-area .pricing-button .pricing-btn .pri-btn-black {
+  background-color: #000 !important;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
