@@ -979,7 +979,6 @@ span {
 */
 .service-area {
   background-color: #ECF2FE;
-  /* single service start */
 }
 .service-area .service-title-area {
   text-align: center;
@@ -1013,7 +1012,7 @@ span {
   max-width: 714px;
   margin: 0 auto;
 }
-.service-area .single-service-area {
+.service-area .single-service-area { /* single service start */
   padding-top: 60px;
 }
 .service-area .single-service-area .service-border {
@@ -1053,4 +1052,16 @@ span {
 .service-area .single-service-area .single-service:hover .service-image {
   opacity: 1;
   transition: 0.3s;
+}
+
+.video-title {
+  text-align: center;
+}
+
+.video-title h2 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 64px;
+  padding-bottom: 34px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
