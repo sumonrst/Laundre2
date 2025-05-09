@@ -9,7 +9,8 @@
 6. Services CSS Start
 7. Video CSS Start
 8. Video Single Service CSS Start
-
+9. Pricing CSS Start
+10. Happy Customer CSS Start
 
 */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
@@ -374,7 +375,8 @@ span {
 6. Services CSS Start
 7. Video CSS Start
 8. Video Single Service CSS Start
-
+9. Pricing CSS Start
+10. Happy Customer CSS Start
 
 */
 .container {
@@ -1141,6 +1143,7 @@ span {
   margin-top: 20px;
 }
 
+.price-area { /* 9. Pricing CSS Start */ }
 .price-area h2 {
   max-width: 600px;
   margin: 0 auto;
@@ -1223,4 +1226,8 @@ span {
   padding: 8px 20px;
   color: #fff;
   font-size: 14px;
+}
+
+.happy-customer-area {
+  background-color: #ECF2FE;
 }/*# sourceMappingURL=style.css.map */
