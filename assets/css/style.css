@@ -7,6 +7,8 @@
 4. Banner CSS
 5. About Us CSS Start
 6. Services CSS Start
+7. Video CSS Start
+8. Video Single Service CSS Start
 
 
 */
@@ -336,6 +338,8 @@ span {
 4. Banner CSS
 5. About Us CSS Start
 6. Services CSS Start
+7. Video CSS Start
+8. Video Single Service CSS Start
 
 
 */
@@ -1054,19 +1058,18 @@ span {
   transition: 0.3s;
 }
 
-.video-title {
+.video-area { /* Video CSS Start */ }
+.video-area .video-title {
   text-align: center;
 }
-
-.video-title h2 {
+.video-area .video-title h2 {
   font-size: 54px;
   font-weight: 600;
   line-height: 64px;
   padding-bottom: 34px;
   text-transform: capitalize;
 }
-
-.video {
+.video-area .video {
   margin-top: 70px;
   width: 1290px;
   height: 670px;
@@ -1079,4 +1082,27 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.video-service { /* Video Single Service CSS Start */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+.video-service .single-video-service {
+  text-align: center;
+}
+.video-service .single-video-service h4 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.video-service .single-video-service p {
+  font-size: 16px;
+  max-width: 212px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.video-service .single-video-service:nth-child(2n) h4 {
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+
+
+.video-service { /* Video Single Service CSS Start */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    .single-video-service {
+        text-align: center;
+        & h4 {
+            font-size: 30px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+        & p {
+            font-size: 16px;
+            max-width: 212px;
+            margin: 0 auto;
+            padding-top: 10px;
+        }
+        &:nth-child(2n) h4 {
+            margin-top: 20px;
+        }
+    }
+  }
+

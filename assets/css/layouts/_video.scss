@@ -1,28 +1,31 @@
 
+.video-area{ /* Video CSS Start */
+    .video-title {
+        text-align: center;
+        & h2 {
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 64px;
+            padding-bottom: 34px;
+            text-transform: capitalize;
+        }
+    }
+    .video {
+        margin-top: 70px;
+        width: 1290px;
+        height: 670px;
+        object-fit: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
 
 
-.video-title {
-    text-align: center;
-  }
-  .video-title h2 {
-    font-size: 54px;
-    font-weight: 600;
-    line-height: 64px;
-    padding-bottom: 34px;
-    text-transform: capitalize;
-  }
 
   
-.video {
-    margin-top: 70px;
-    width: 1290px;
-    height: 670px;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
