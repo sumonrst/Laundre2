@@ -44,6 +44,8 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    position: absolute;
+    margin-bottom: -50px;
   }
   .single-counter {
     border: 1px solid #ddd !important;
@@ -77,47 +79,107 @@
     padding-top: 100px;
   }
   
-.delivery-content {
-  background-color: tomato;
+// .delivery-content {
+//   background-color: tomato;
+//   height: 100%;
+//   width: 390px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-end;
+// }
+// .delivery-info-left {
+//   object-fit: cover;
+//   background-size: cover;
+//   background-position: center;
+//   height: 450px;
+// }
+
+// .delivery-experience {
+// 	height: 100%;
+// 	justify-content: flex-end;
+// }
+
+// .experience-title {
+// 	background-color: #fff;
+// 	z-index: 5;
+// 	width: 349px;
+// 	height: 287px;
+// 	display: flex;
+// 	flex-direction: row;
+// 	align-items: center;
+// 	gap: 20px;
+// 	justify-content: center;
+// 	margin-left: 27px;
+// 	padding: 20px;
+// }
+// .expe-title {
+//   font-size: 193px;
+// }
+// .experience-title span {
+//   font-size: 16px;
+//   text-transform: capitalize;
+// }
+
+// .experience-des {
+// 	margin-top: -87px;
+// }
+
+
+
+
+
+.about-counter-main {
   height: 100%;
-  width: 390px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
 }
+
+
+
 .delivery-info-left {
-  object-fit: cover;
   background-size: cover;
   background-position: center;
+  width: 390px;
   height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  position: relative;
 }
-
-.delivery-experience {
-	height: 100%;
-	justify-content: flex-end;
-}
-
 .experience-title {
-	background-color: #fff;
-	z-index: 5;
-	width: 349px;
-	height: 287px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 20px;
-	justify-content: center;
-	margin-left: 27px;
-	padding: 20px;
+  height: 235px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 44px;
+  z-index: 5;
+  position: absolute;
+  margin-left: 180px;
+  width: 354px;
 }
 .expe-title {
-  font-size: 193px;
+  font-size: 200px;
+  font-weight: 600;
 }
-.experience-title span {
-  font-size: 16px;
+.experience-des span {
+  font-size: 15px;
   text-transform: capitalize;
+  line-height: 0px;
 }
 
-.experience-des {
-	margin-top: -87px;
+.deivery-info-right {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.deivery-info-right img {
+  height: 330px;
 }
