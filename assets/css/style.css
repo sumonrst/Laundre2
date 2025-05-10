@@ -11,6 +11,7 @@
 8. Video Single Service CSS Start
 9. Pricing CSS Start
 10. Happy Customer CSS Start
+11. Blog Area CSS Start
 
 */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
@@ -377,6 +378,7 @@ span {
 8. Video Single Service CSS Start
 9. Pricing CSS Start
 10. Happy Customer CSS Start
+11. Blog Area CSS Start
 
 */
 .container {
@@ -1230,4 +1232,33 @@ span {
 
 .happy-customer-area {
   background-color: #ECF2FE;
+}
+
+.blog-area { /* 11. Blog Area CSS Start */ }
+.blog-area .blog-title {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.blog-area .blog-title .title-section {
+  text-align: left;
+}
+.blog-area .blog-title .title-section h2 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 64px;
+  max-width: 809px;
+  margin: initial !important;
+}
+.blog-area .blog-title .blog-btn {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.blog-area .blog-title .blog-btn .button-text {
+  font-size: 15px;
+  border: 1px solid #ddd;
+  padding: 8px 30px;
 }/*# sourceMappingURL=style.css.map */

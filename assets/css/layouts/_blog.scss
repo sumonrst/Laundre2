@@ -1,0 +1,37 @@
+
+
+.blog-area{ /* 11. Blog Area CSS Start */
+    .blog-title{
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        .title-section{
+            text-align: left;
+            & h2 {
+                font-size: 54px;
+                font-weight: 600;
+                line-height: 64px;
+                max-width: 809px;
+                margin: initial !important;
+            }
+        }
+        .blog-btn{
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            .button-text {
+                font-size: 15px;
+                border: 1px solid #ddd;
+                padding: 8px 30px;
+            }
+        } 
+    }
+}
+
+
+
+
+
+
