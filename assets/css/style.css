@@ -750,6 +750,26 @@ span {
   background-position: center;
 }
 
+.banner-overlay {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.banner-overlay::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0.45;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #142137;
+  background: linear-gradient(to right, #142137 35%, #FFFFFF 100%);
+}
+
 .banner-btn-1 a {
   font-size: 14px;
   background-color: #4B5666;
@@ -1277,6 +1297,95 @@ span {
 }
 .video-service .single-video-service:nth-child(2n) h4 {
   margin-top: 20px;
+}
+
+.single-cleaning {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cleaning-content {
+  background-color: #ECF2FE;
+  padding: 20px 20px;
+}
+
+.cleaning-title h4 {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.cleaning-title span {
+  font-size: 13px;
+}
+
+.cleaning-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cle-social-list a i {
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.cle-social-list a i:hover {
+  background-color: #4375E7;
+  color: #fff;
+}
+
+.cle-social-list a i {
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.clea-social {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  margin-bottom: 64px;
+  margin-left: -21px;
+}
+
+.clea-social-list a i {
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 7px;
+  font-size: 13px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.single-cleaning:hover .clea-social-list a i {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.clea-social-list a i:hover {
+  background-color: #4375E7;
+  color: #fff;
 }
 
 .price-area { /* 9. Pricing CSS Start */ }

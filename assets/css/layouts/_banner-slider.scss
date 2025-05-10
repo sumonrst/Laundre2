@@ -10,6 +10,28 @@
   background-position: center;
 }
 
+.banner-overlay {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+  z-index: 2;
+}
+
+.banner-overlay::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	opacity: 0.45;
+	top: 0;
+	bottom: 0;
+  z-index:-1;
+background: #142137;
+background: linear-gradient(to right, #142137 35%, #FFFFFF 100%);
+
+
+}
+
 
 
 
