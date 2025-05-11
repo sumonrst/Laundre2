@@ -1304,13 +1304,14 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   height: 368px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
+  gap: 20px;
 }
 
 .cleaning-content {
@@ -1386,6 +1387,15 @@ span {
 .clea-social-list a i:hover {
   background-color: #4375E7;
   color: #fff;
+}
+
+.cleaning-main .slick-slide {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.cleaning-main {
+  margin: 0 -10px;
 }
 
 .price-area { /* 9. Pricing CSS Start */ }

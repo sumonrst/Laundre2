@@ -28,11 +28,12 @@ $(document).ready(function(){
     });
 
     
-    $('.testimonial').slick({
+    $('.cleaning-main').slick({
         autoplay: true,
-        slidesToShow:2,
+        slidesToShow:4,
         arrows: false,
         dots:true,
+        infinite: true,
         responsive: [
           {
             breakpoint: 768,
