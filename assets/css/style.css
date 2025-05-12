@@ -1815,4 +1815,11 @@ span {
   background-color: #fff;
   border-radius: 50%;
   padding: 20px 23px;
+}
+
+.slider-imagess {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
