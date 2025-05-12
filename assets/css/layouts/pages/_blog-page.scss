@@ -146,3 +146,46 @@
   height: 500px;
   width: 100%;
 }
+
+
+.test-container {
+	background-color: tomato;
+}
+
+.test2-container {
+	background-color: green;
+}
+
+
+/* Blog slider post arrow CSS Start */
+
+.blog-slider .slick-prev {
+	position: absolute;
+	z-index: 5;
+	left: 30px;
+	top: 50%;
+	border: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+.blog-slider .slick-prev:hover{
+  background-color: #4375E7;
+  color: #fff;
+}
+
+.blog-slider .slick-next {
+	position: absolute;
+	z-index: 5;
+	right: 30px;
+	top: 50%;
+  border: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+.blog-slider .slick-next:hover{
+  background-color: #4375E7;
+  color: #fff;
+}
