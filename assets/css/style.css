@@ -1793,4 +1793,26 @@ span {
 
 .quote h4 {
   font-size: 16px;
+}
+
+/* Blog details video CSS Start */
+.video-image {
+  height: 459px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-image img {
+  width: 20px;
+}
+
+.video-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 20px 23px;
 }/*# sourceMappingURL=style.css.map */
