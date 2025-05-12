@@ -1702,4 +1702,75 @@ span {
 
 .bre-menu-list a i {
   margin-right: 10px;
+}
+
+/* Blog single CSS Start */
+.blog-main {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.blog-single {
+  background-color: #EBEFF3;
+}
+
+.blog-single-content {
+  padding: 40px 100px 60px 40px;
+}
+
+.blog-single-content h2 {
+  font-size: 25px;
+}
+
+.blog-single-content p {
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.blog-details-btn {
+  font-size: 15px;
+  text-transform: capitalize;
+  background-color: #142137;
+  color: #fff;
+  border-radius: 39px;
+  padding: 14px 0px;
+  padding-left: 22px;
+  padding-right: 10px;
+}
+
+.blog-details-btn i {
+  margin-left: 10px;
+  background-color: #fff;
+  color: #000;
+  padding: 9px;
+  border-radius: 50%;
+}
+
+.author-info img {
+  width: 54px;
+  height: 54px;
+  border-radius: 7px;
+}
+
+.author-info span {
+  font-size: 14px;
+  margin-left: 9px;
+}
+
+.blog-author-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.post-meta a {
+  font-size: 12px;
+  margin-left: 7px;
+}
+
+.post-meta a img {
+  width: 15px;
+  margin-right: 11px;
 }/*# sourceMappingURL=style.css.map */
