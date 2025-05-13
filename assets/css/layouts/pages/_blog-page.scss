@@ -220,6 +220,40 @@
 
 
 
+.sidebar-title {
+  font-size: 19px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.single-sidebar {
+  padding: 20px 16px;
+  background-color: #EBEFF3;
+  margin-top: 20px;
+}
+.sidebar-post img {
+  width: 80px;
+  height: 91px;
+  object-fit: cover;
+  background-size: cover;
+}
+.sidebar-post {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	padding-bottom: 20px;
+	align-items: center;
+}
+
+.post-title h3 {
+	font-size: 12px;
+	text-transform: capitalize;
+}
+.post-date span {
+	font-size: 10px;
+}
+
+
+
 
 
 
