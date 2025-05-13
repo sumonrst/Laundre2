@@ -1863,4 +1863,31 @@ span {
 .blog-slider .slick-next:hover {
   background-color: #4375E7;
   color: #fff;
+}
+
+/* Blog Sidebar CSS Start */
+.blog-search {
+  background-color: #EBEFF3;
+  padding: 20px 16px;
+}
+
+.blog-search h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.blog-search input {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 100%;
+}
+
+.form button {
+  border: 0;
+  padding: 9px 12px;
+  background-color: #4375E7;
+  color: #fff;
+  position: absolute;
+  margin-left: -38px;
 }/*# sourceMappingURL=style.css.map */
